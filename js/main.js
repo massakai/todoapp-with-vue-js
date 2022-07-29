@@ -1,9 +1,9 @@
 const app = Vue.createApp({
     data: () => ({
-
+        newItem: ''
     }),
     methods: {
-        addItem: function(event) {
+        addItem: function (event) {
             console.log('Clicked!')
         }
     }
